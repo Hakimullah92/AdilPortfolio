@@ -1,0 +1,8 @@
+@media screen and (max-width:576px) {
+    .home{
+        margin-top: 1rem;
+    }
+    .home .home-container .heading-md{
+        font-size: 10px !important;
+    }
+}
