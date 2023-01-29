@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,800&family=Poppins:ital,wght@0,200;0,500;1,100;1,400;1,600&family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar{
+    width: 0.3124rem;
+}
+::-webkit-scrollbar-track{
+    background: #fff;
+}
+::-webkit-scrollbar-thumb{
+    background:#ff553e;
+}
+/* ------------ Header Styling Start---------- */
+.header{
+    width: 100%;
+}
+.logo{
+    width: 127px;
+}
+.nav-item{
+    margin: 0px 4px;
+}
+.nav-item .nav-link{
+    font-size:18px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.723);
+    text-align: center;
+    text-transform: capitalize;
+    transition: all 0.23s ease-in-out;
+}
+.nav-item .nav-link.show{
+    color: rgb(236,191,10) !important;
+}
+.nav-item .nav-link:hover{
+    color: rgb(236,191,10) !important;
+}
+.btn-contact{
+    display: inline-block;
+    border: 1px solid rgb(236,191,10);
+    text-decoration: none;
+    padding: 9px 20px;
+    border-radius: 22px;
+    background: rgb(236,191,10);
+    color:#fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 2px 14px;
+
+}
+/* ------------ Header Styling End---------- */
