@@ -61,15 +61,23 @@ body{
 
 /* ------------Hero Styling Start------------- */
 .home{
-    margin-top: 5rem;
     padding-top: 3.5rem;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items:center;
 }
 .home .home-img{
-    width: 600px;
-    
+    width: 620px;
+    height: 550px;
+}
+.home .home-container .social-links i{
+    color: orangered !important;
+    transition: all 0.3s ease-in-out;
+}
+.home .home-container .social-links i:hover{
+    background: orange;
+    color: #ffff !important;
+}
 /* ------------Hero Styling End------------- */
