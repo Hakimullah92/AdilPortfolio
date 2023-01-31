@@ -10,6 +10,7 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 ::-webkit-scrollbar{
     width: 0.3124rem;
@@ -81,3 +82,96 @@ body{
     color: #ffff !important;
 }
 /* ------------Hero Styling End------------- */
+
+/* ------------about Styling Start------------- */
+.about{
+    padding-top: 5rem;
+    width: 100%;
+    height: 100vh;
+}
+.about .about-img img{
+    width: 540px;
+}
+.about .about-content .name{
+    font-size: 2.5rem;
+    color: rgba(0,0,0,0.723);
+    font-weight: 600;
+}
+.about .about-content .para-descr{
+    text-align: justify;
+    color: rgba(0,0,0,0.833);
+    font-size:15px;
+}
+.about .about-content .list{
+position: relative;
+}
+.about .about-content .items{
+    list-style: none;
+    position: relative;
+}
+
+.about .about-content .items b{
+    font-size: 17px;
+    font-weight: 600;
+    margin-left:22px;
+}
+.about .about-content .items span{
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.about .about-content .items::before{
+    content:'' ;
+    position: absolute;
+    left: 3px;
+    margin: 6px 0px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border:2px solid rgb(190,20,20);
+    background: #fff;
+
+}
+.about .about-content .items::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 9px;
+    width: 1px;
+    height: 90%;
+    background:blueviolet;
+    margin: auto;
+    z-index: -1;
+}
+.about .about-content .about-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(190,20,20);
+    border: 1px solid rgb(190,20,20);
+    width: 180px;
+    text-align: center;
+    padding: 7px 5px;
+    margin: 12px 10px;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.about .about-content .about-btn span{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width:0%;
+    height: 100%;
+    background: rgb(190,20,20);
+    z-index: -1;
+    transition: all 0.2s ease-in-out;
+}
+.about .about-content .about-btn:hover{
+    color: #fff;
+}
+.about .about-content .about-btn:hover span{
+    width: 100%;
+}
+/* ------------about Styling End------------- */
