@@ -2,12 +2,16 @@
     .home{
         margin-top: 5rem;
     }
+    .skills .image{
+        margin-top: 3rem;
+    }
 } 
 
 @media screen and (max-width:786px) {
     .about .about-img{
         margin-bottom: 2rem;
     }
+   
 }
 
 @media screen and (max-width:576px) {
